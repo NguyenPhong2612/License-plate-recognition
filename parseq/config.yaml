@@ -1,0 +1,25 @@
+model:  
+  image_size : [224, 224]
+  patch_size : [16, 16]
+  max_len : 25
+  d_model : 384
+  enc_num_heads : 6
+  enc_mlp_ratio : 4
+  enc_depth : 12
+  dec_num_heads : 12
+  dec_mlp_ratio : 4
+  dec_depth : 1
+  perm_num : 8
+  perm_forward : true
+  perm_mirrored : true
+  decode_ar : true
+  refine_iter : 2
+  num_tokens : 97
+  pretrained : false
+  train_charset : 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~
+  weight_url : https://github.com/baudm/parseq/releases/download/v1.0.0/parseq_small_patch16_224-fcf06f5a.pt
+trainer:
+  lr : 3e-4
+  batch_size : 4
+  weight_decay : 0.0
+  warm_pct : 0.075

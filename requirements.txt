@@ -1,0 +1,8 @@
+tensorflow==2.13.1
+torch==2.4.1
+gradio==4.44.1
+timm==1.0.9
+PIL==10.2.0
+imgaug==0.4.0
+opencv-python==4.10.0
+torchvision==0.19.1
