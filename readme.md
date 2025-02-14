@@ -18,7 +18,7 @@ This is a two-stage license plate recognition model consisting of license plate 
 ## 3.Model architecture.
 
 ![WPOD architecture](Stuff/WPOD.png)
-![PARSeq architecture](Stuff/WPOD.png)
+![PARSeq architecture](Stuff/PARSeq.png)
 
 ## 4.Demo
 You can run script app.py or follow this [link](https://huggingface.co/spaces/windy2612/License_Plate_Recognition) to access the application.
@@ -30,4 +30,5 @@ There are some illustrations of my repo.
 
 ## 5.Reference
 [wpod model](https://github.com/Pandede/WPODNet-Pytorch)
+
 [parseq model](https://github.com/baudm/parseq)
