@@ -1,5 +1,4 @@
 # Project name
-
 Licenseplate recognition using WPOD and PARSeq.
 
 ## 1.Overview
